@@ -1,0 +1,15 @@
+.cursor {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background: #2e4a9c;
+    transition: 0.1s;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+ul li:hover ~ .cursor {
+    background: #8fcea3;
+    opacity: 0.5;
+    transform: scale(2.5);
+}

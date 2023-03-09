@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio Real Time</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="BarWebSite.CSS">
+    <link rel="stylesheet" href="Scroll_Bar.CSS">
+    <link rel="stylesheet" href="Text_Center.CSS">
+    <link rel="stylesheet" href="Cursor.CSS">
+    <link rel="stylesheet" href="Footer.CSS">
+    <link rel="stylesheet" href="Photo.CSS">
+
+    </head>
+<body>
+    <header>
+        <img class="logo" src="C:\Users\Vanes\Desktop\Website\CurriculumVitae Folder\Links\Profil\Logo.svg" alt="logo"
+        width= "50"
+        height= "50"/>
+        <nav>
+            <ul class="nav__link">                
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="AboutMe.html">About me</a></li>
+                <div class="cursor"></div>
+            </ul>            
+        </nav>    
+        <script> const cursor = document.querySelector('.cursor');
+        document.addEventListener('mousemove', (e)=> {
+            cursor.style.left = e.pageX+ 'px';
+            cursor.style.top = e.pageY + 'px';
+        })
+        </script>
+        <div class="text-box">
+        <a href="Contact.html"><Button>Contact</Button></a>
+        </div>
+    </header>
+</body>
+<body>
+    <div class="container">
+        <section class="one">
+            <h1>Realtime</h1>
+        </section>
+        <section class="two">
+            <p>Pipelines : Unreal Engine - Unity</p>
+        </section>
+        <section class="tree">
+            <h2>...</h2>
+        </section>
+    </div>
+</body>
+<body> 
+    <div class="footerTop">
+        <h3>Social Media</h3>
+    </div>    
+    <div class="footerContainer">
+        <div class="socialIcons">
+                <a href="https://vanessa_brassiene.artstation.com/"><i class="fa-brands fa-artstation"></i></a>
+                <a href="https://www.instagram.com/vanessa_brassiene/?hl=fr"><i class="fa-brands fa-instagram"></i></a>                     
+                <a href="https://www.linkedin.com/in/vanessa-brassiène-b23943243"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://youtu.be/xX3DmghIAIU"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2023.Designed by Vanessa Brassiene</p> 
+        </div>    
+    </footer>  
+</body>
+</html>
